@@ -1,3 +1,4 @@
+'''
 import mysql.connector
 #*36342DF49762A4AC4BE08FBD3207679E1D6A16E7
 #An0thrS3crt
@@ -12,3 +13,5 @@ mycursor=mydb.cursor()
 mycursor.execute("show databases")
 for db in mycursor:
   print(db)
+'''
+print('Good morning')
